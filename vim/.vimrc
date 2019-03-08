@@ -25,13 +25,12 @@ Plugin 'gmarik/Vundle.vim'
 
 " Other plugins
 Plugin 'tmhedberg/SimpylFold'
-Plugin 'vim-syntastic/syntastic'
-Plugin 'nvie/vim-flake8'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline'
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'w0rp/ale'
 
 call vundle#end()
 filetype plugin indent on
@@ -121,3 +120,9 @@ nmap <silent> <leader>k :NERDTreeToggle<cr>
 
 " Vim-airline
 let g:airline#extensions#tabline#enabled = 1
+
+" Ale
+let g:ale_linters = {
+\	'python': ['pylint'],
+\}
+let g:ale_virtualenv_dir_names = []

@@ -1,2 +1,2 @@
 # create shortcut alias to load different tmux configuration
-function tmux-load() { source ~/.dotfiles/tmux/$@.tmux.sh ;}
+type tmux-load &>/dev/null && echo "tmux-load()" || function tmux-load() { source ~/.dotfiles/tmux/$@.tmux.sh ;} 2>/dev/null
