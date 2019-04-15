@@ -100,6 +100,8 @@ au BufNewFile,BufRead *.py
 " nnoremap <C-K> <C-W><C-K>
 " nnoremap <C-L> <C-W><C-L>
 " nnoremap <C-H> <C-W><C-H>
+nnoremap <leader>H :bprevious<cr>
+nnoremap <leader>L :bnext<cr>
 
 " set a leader key
 let mapleader = ','

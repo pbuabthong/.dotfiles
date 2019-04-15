@@ -5,6 +5,13 @@ Here's a personal setup for my coding workflow using vim+tmux. Most of these con
 ![My IDE from these dotfiles setup](docs/dev.png)
 
 ## Installation
+Run `install.sh`
+```
+cd ~
+source install.sh
+```
+Or go through the following steps.
+
 First of all, let's make sure we have the most crucial requirements for these configurations to work: vim, tmux,
 which can be installed via Homebrew if you are on macOS (or any package manager in most os'es)
 ```
