@@ -7,7 +7,7 @@ Here's a personal setup for my coding workflow using vim+tmux. Most of these con
 ## Installation
 Run `install.sh`
 ```
-cd ~
+cd ~/.dotfiles
 source install.sh
 ```
 Or go through the following steps.
